@@ -1,4 +1,5 @@
 # EX 4 Implementation of Logistic Regression Model to Predict the Placement Status of Student
+## DATE:
 
 ## AIM:
 To write a program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
@@ -20,7 +21,7 @@ Program to implement the the Logistic Regression Model to Predict the Placement 
 Developed by: NITHIN BILGATES C
 RegisterNumber: 2305001022 
 */
-```import pandas as pd
+import pandas as pd
 data=pd.read_csv("/content/ex45Placement_Data (1).csv")
 data.head()
 
@@ -68,7 +69,9 @@ print("\nClassification report:\n",cr)
 from sklearn import metrics
 cm_display=metrics.ConfusionMatrixDisplay(confusion_matrix=confusion,display_labels=[True,False])
 cm_display.plot()
+```
 ## Output:
+
 ![image](https://github.com/user-attachments/assets/66102de6-f024-44a0-90e4-33a22eeef6b2)
 ![image](https://github.com/user-attachments/assets/92912e6e-bc02-4ebd-ac7c-fbae2fda4047)
 ![image](https://github.com/user-attachments/assets/022c5e38-a65f-44f9-bf47-f66400e7d3d1)
